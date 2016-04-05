@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head> 
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,
+width=device-width, height=device-height, target-densitydpi=device-dpi" />
+<script src="phonegap.js"></script>
+</head>
+
+    <body>
+    
+    <script src="script.js"> </script>    
+        
+    <div class="bar" id="des"> Black formal (sm-291) laced up shoes</div>
+    
+    <div class="block" >
+    <div class="arrow-l arrow" onclick="back()"> &lt; </div>   
+    <img id="url" src="res/prod/formal1.jpg" class="list-img">
+    <div class="arrow-r arrow" onclick="forward()"> &gt; </div>    
+        
+    </div>    
+        
+    <div class="list"> 
+    SHOP
+    <span class="list-arrow"> > </span>    
+    </div> 
+        
+        
+    <div class="list list-text"> 
+    <div class="list-div"><div id="name">BLACK FORMAL </div>
+        Flipkart.com
+    </div>    
+    <div class="list-div"><div style="color:red;" id="price">₹999</div><strike id="price1">₹1999</strike></div>      
+    </div>     
+        
+    
+    </body>
+    
+
+
+</html>
+
+
+<style>
+
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+    body{
+        margin: 0;
+        padding: 0;
+        color:  grey;
+        font-family:fantasy;
+        overflow-x: hidden;
+        background-color: aliceblue;
+    }
+    
+    .bar{
+        width: 97%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:2%;
+        text-align: center;
+        font-family: fantasy;
+        font-size: 455%;
+        background-color: white;
+        box-shadow:0px 1px 1px 0px grey;
+        }
+    
+    .block{
+        height:45%;
+        width:96%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2%;
+        background-color: white;
+        box-shadow:0px 2px 2px 0px grey;
+        }
+    
+    .block img{
+        width:100%;
+        height: 100%;
+    }
+    
+    .arrow-l{
+         left:0; 
+        }
+    
+    .arrow-r{
+        right: 0;
+        }
+    
+    .arrow{
+        top:35%;
+        color: dimgrey;
+        position: absolute;
+        font-family: monospace;
+        font-size: 700%;
+        
+     }
+    
+    .arrow:hover, .arrow:active{
+        color:black;
+    }
+    
+    
+     .list{
+        height: 10%;
+        width: 94%;
+        color:  white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2%; 
+        padding: 2%;
+        font-size: 450%;
+        text-align: center; 
+        font-family: fantasy;
+        background-color: red;
+        box-shadow:0px 2px 2px 0px grey;
+        
+    }
+    
+    .list-arrow
+    {
+        float: right;
+        font-size: 130%;
+        font-family: monospace;
+        
+        
+    }
+    
+    .list-text{
+        color: grey;
+        font-size: 200%;
+        background-color: white;
+        }
+    
+    .list-div{
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    
+</style>
